@@ -20,7 +20,8 @@ def secure_token
 		token = SecureRandom.hex(64)
 		File.write(token_file).chomp
 		token
-	end	
+	end
+end		
 
 
 
